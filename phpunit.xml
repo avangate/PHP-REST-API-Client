@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="all">
+            <directory suffix=".php">tests/</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="no_proxy" value="*" />
+        <const name="MERCHANT_CODE" value="*****" />
+        <const name="MERCHANT_APIKEY" value="********************" />
+    </php>
+</phpunit>
