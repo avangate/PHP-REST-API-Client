@@ -1,5 +1,5 @@
 {
-  "name": "bogdananton/avangate-rest-api-client",
+  "name": "avangate/avangate-php-rest-api-client",
   "license": "MIT",
   "require": {
     "php": "^5.6",
