@@ -5,7 +5,7 @@ class Client extends \GuzzleHttp\Client
 {
     public function __construct(array $setup)
     {
-        $date = date('Y-m-d H:i:s');
+        $date = gmdate('Y-m-d H:i:s');
         $accept = (array_key_exists('headers.accept', $setup) ? $setup['headers.accept'] : 'application/json');
 
         $code = $setup['code'];
